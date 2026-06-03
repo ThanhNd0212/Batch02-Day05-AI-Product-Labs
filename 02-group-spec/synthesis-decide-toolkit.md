@@ -7,28 +7,16 @@ Dùng sau khi nhóm đã có evidence. Mục tiêu là chốt một build slice 
 Gom theo **workflow/pain**, không gom theo tên feature.
 
 Ví dụ cụm tốt:
-
-- "Không biết chọn chuyên khoa"
-- "Không hiểu vì sao bị tính phí"
-- "Muốn sửa output nhưng không có chỗ sửa"
-- "Bot trả lời tự tin nhưng không dẫn nguồn"
-
+- booking thất bại và gặp chậm trễ trong việc hoàn tiền, thanh toán
+- khó khăn trong việc giải đáp thắc mắc trực tuyến
 ## 2. Viết insight
 
 Form:
 
 ```text
-User [segment] không chỉ cần [surface need].
-Họ thật ra cần [deeper need],
-vì [evidence pattern].
-```
-
-Ví dụ:
-
-```text
-Người lần đầu đi khám không chỉ cần danh sách chuyên khoa.
-Họ cần hỗ trợ ra quyết định an toàn,
-vì nhiều review/observation cho thấy họ không biết triệu chứng của mình nên đi khoa nào.
+User khi đặt chuyến không chỉ những địa điểm và phương thức available.
+Họ thật ra cần giải đáp thắc mắc kịp thời, được gợi ý chuyến đi theo như cầu (tài chính, người đi), tình hình thời tiết
+vì trong app hiện tại đang thiếu các tính năng hỗ trợ giải đáp thắc mắc trực tuyến, gợi ý chuyến đi linh hoạt.
 ```
 
 ## 3. Viết opportunity
@@ -36,9 +24,9 @@ vì nhiều review/observation cho thấy họ không biết triệu chứng c�
 Form:
 
 ```text
-Cơ hội là dùng AI để [augment/automate hành động hẹp],
-giúp user [kết quả],
-trong khi vẫn kiểm soát [failure/risk].
+Cơ hội là dùng AI gợi ý chuyến đi
+giúp để dựa vào tình hình thời tiết từng khu vực trong khoảng thời gian user muốn đi, so sánh giá các dịch vụ đáp ứng và gợi ý người dùng trước khi đặt chuyến
+trong khi vẫn kiểm soát quyền kiểm soát chốt chuyến đi cuẩ người dùng.
 ```
 
 ## 4. Chọn build slice
@@ -47,11 +35,9 @@ Build slice tốt phải qua 5 câu hỏi:
 
 | Câu hỏi | Đạt khi |
 |---|---|
-| User cụ thể chưa? | Nói được ai dùng, trong bối cảnh nào. |
-| Task đủ hẹp chưa? | Demo được trong 3-5 phút. |
-| AI decision rõ chưa? | AI gợi ý/tự làm một việc cụ thể. |
-| Failure path rõ chưa? | Có một case AI không chắc hoặc sai để test. |
-| Có evidence không? | Có bằng chứng từ self-use/review/user/competitor. |
+| Người chưa hiểu rõ tình hình thời tiết, đại hình tài chính của một đất nước lạ | Khách nước ngoài, người ít kinh nghiệm du lịch được trợ giúp chọn chuyến đi |
+| AI đánh giá rủi ro thời tiết & so sánh giá | AI đề xuất, lọc các địa điểm theo mức độ phù hợp giảm dần |
+
 
 ## 5. Quyết định: giữ, giảm scope, hay đổi hướng?
 
