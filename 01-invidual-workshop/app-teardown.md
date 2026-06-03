@@ -35,6 +35,8 @@ output 2: Moni trả về chi tiết giao dịch trong 3 ngày gần nhất
 -AI khôg nhất quán trong việc trả lời cùng 1 câu hỏi
 ![lần hỏi 1 - Trả lời không có dữ liệu nhóm chi tiêu cụ thể](khong-nhat-quan-1.jpg)
 ![lần hỏi 2 - Có dữ liệu về nhóm chi tiêu giải trí](khong-nhat-quan-2.jpg)
+output 1: Trả lời không có dữ liệu nhóm của các nhóm chi tiêu
+output 2: Trả lời có dữ liệu nhóm chi tiêu Giải trí
 
 ## 3. Vẽ 4 paths
 Từ hai lỗi trên và các cuộc hội thoại đã trò chuyện với Moni, tôi có thể vẽ 4 paths như sau:
