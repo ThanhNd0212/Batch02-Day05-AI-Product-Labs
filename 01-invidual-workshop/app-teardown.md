@@ -24,8 +24,8 @@ Ghi nhanh:
 3. Kỳ vọng AI sẽ giúp người dùng hiểu rõ hơn về tình hình tài chính của họ, đưa ra các phân tích chi tiêu hữu ích, và cung cấp các mẹo để tiết kiệm tiền.
 4. Khi dùng, tôi phát hiện ra nhiều điểm gãy như sau
 - AI có thể duy trì context của tin nhắn trước nhưng không ổn định 
-![tính liền mạch moni 1](01-invidual-workshop\tính liền mạch Moni 1.jpg)
-![tính liền mạch moni 2](01-invidual-workshop\tính liền mạch Moni 2.jpg)
+![tính liền mạch moni 1](tinh-lien-mach-1.jpg)
+![tính liền mạch moni 2](tinh-lien-mach-2.jpg)
 input 1: Truy xuất dòng tiền của tôi trong 4 tuần gần nhất
 output1: Moni đã trả về thống kê tống số giao dịch, tổng chi và trung bình mỗi ngày theo từng tuần. Đồng thời gợi ý người dùng có muốn xem chi tiết từng giao dịch không
 input 2: hãy cho tôi biết chi tiết giao dịch
@@ -33,8 +33,8 @@ output 2: Moni trả về chi tiết giao dịch trong 3 ngày gần nhất
 --> AI trả về thông tin trong 3 ngày gần nhất thay vì 4 tuần theo như context từ  tin nhắn trước. 
 
 -AI khôg nhất quán trong việc trả lời cùng 1 câu hỏi
-![lần hỏi 1 - Trả lời không có dữ liệu nhóm chi tiêu cụ thể](01-invidual-workshop\không nhất quán 1.jpg)
-![lần hỏi 2 - Có dữ liệu về nhóm chi tiêu giải trí](01-invidual-workshop\không nhất quán 2.jpg)
+![lần hỏi 1 - Trả lời không có dữ liệu nhóm chi tiêu cụ thể](khong-nhat-quan-1.jpg)
+![lần hỏi 2 - Có dữ liệu về nhóm chi tiêu giải trí](khong-nhat-quan-2.jpg)
 
 ## 3. Vẽ 4 paths
 Từ hai lỗi trên và các cuộc hội thoại đã trò chuyện với Moni, tôi có thể vẽ 4 paths như sau:
